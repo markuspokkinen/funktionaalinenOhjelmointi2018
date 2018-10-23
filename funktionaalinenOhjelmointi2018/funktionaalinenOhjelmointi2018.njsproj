@@ -11,7 +11,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5f1f8de9-3839-44fa-a149-6d44a2ac03a4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>app.js</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -28,9 +29,54 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="app.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="v3\01\JavaApp\kalevala.txt" />
+    <Content Include="v3\01\JavaApp\src\menu\Dish.java" />
+    <Content Include="v3\01\JavaApp\src\menu\Grouping.java" />
+    <Content Include="v3\01\JavaApp\src\menu\Reducing.java" />
+    <Content Include="v3\01\JavaApp\src\menu\StreamBasic.java" />
+    <Content Include="v3\01\JavaApp\src\menu\Summarizing.java" />
+    <Content Include="v3\01\JavaApp\src\streams\BuildingStreams.java" />
+    <Content Include="v3\01\JavaApp\src\streams\Mapping.java" />
+    <Content Include="v3\01\JavaApp\src\streams\NumericStreams.java" />
+    <Content Include="v3\01\JavaApp\src\streams\PartitionPrimeNumbers.java" />
+    <Content Include="v3\01\JavaApp\src\streams\PuttingIntoPractice.java" />
+    <Content Include="v3\01\JavaApp\src\streams\Trader.java" />
+    <Content Include="v3\01\JavaApp\src\streams\Transaction.java" />
+    <Content Include="v3\01\README.md" />
+    <Content Include="v3\02\java1_Runnable\Functional1.java" />
+    <Content Include="v3\02\java2_OmaFIF\Functional2.java" />
+    <Content Include="v3\02\java2_OmaFIF\GeneratorFIF.java" />
+    <Content Include="v3\02\java2_OmaFIF\Tulostaja.java" />
+    <Content Include="v3\02\java3_Omenat\Functional3.java" />
+    <Content Include="v3\02\java3_Omenat\Omena.java" />
+    <Content Include="v3\02\java4_predicate\Predikaatti.java" />
+    <Content Include="v3\02\java5_consumer\Kuluttaja.java" />
+    <Content Include="v3\02\java6_function\Funktio.java" />
+    <Content Include="v3\02\README.md" />
+    <Content Include="v3\02\Tehtavapohjat\Makihyppy.java" />
+    <Content Include="v3\02\Tehtavapohjat\PisteenTransformaatiot.java" />
+    <Content Include="v3\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="v3\" />
+    <Folder Include="v3\01\" />
+    <Folder Include="v3\01\JavaApp\" />
+    <Folder Include="v3\01\JavaApp\src\" />
+    <Folder Include="v3\01\JavaApp\src\menu\" />
+    <Folder Include="v3\01\JavaApp\src\streams\" />
+    <Folder Include="v3\02\" />
+    <Folder Include="v3\02\java1_Runnable\" />
+    <Folder Include="v3\02\java2_OmaFIF\" />
+    <Folder Include="v3\02\java3_Omenat\" />
+    <Folder Include="v3\02\java4_predicate\" />
+    <Folder Include="v3\02\java5_consumer\" />
+    <Folder Include="v3\02\java6_function\" />
+    <Folder Include="v3\02\JavaApplication1\" />
+    <Folder Include="v3\02\JavaApplication1\src\" />
+    <Folder Include="v3\02\JavaApplication1\src\omenat\" />
+    <Folder Include="v3\02\Tehtavapohjat\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
