@@ -1,0 +1,3 @@
+﻿# funktionaalinenOhjelmointi2018
+
+
