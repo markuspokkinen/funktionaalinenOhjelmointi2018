@@ -30,6 +30,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="01\fact.js" />
+    <Compile Include="01\jaollinen.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01\palindromi.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01\taulukkokäännä.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="02\anonyymi.js" />
     <Compile Include="02\coordinate.js" />
     <Compile Include="02\fns_in_array.js" />
