@@ -1,13 +1,15 @@
 'use strict';
 
-let f, g;
-function foo() {
-  let x;
-  f = function() { return ++x; };
-  g = function() { return --x; };
-  x = 1;
-  console.log('inside foo, call to f(): ' + f());
-}
-foo();  
-console.log('call to g(): ' + g()); 
-console.log('call to f(): ' + f()); 
+
+var foo = (function(){
+	let x;
+	var f, g;
+	f = function () { return ++x; };
+	g = function () { return --x; };
+	x = 1;
+	console.log('inside foo, call to f(): ' + f());
+	return {kasvata: f,vahenna:g};
+})();
+foo;
+console.log('call to g(): ' + foo.vahenna()); 
+console.log('call to f(): ' + foo.kasvata()); 

@@ -45,6 +45,9 @@
     <Compile Include="02\fn_kutsuu_fn.js" />
     <Compile Include="02\kertoma_tail_recursive.js" />
     <Compile Include="02\olio_parametrina.js" />
+    <Compile Include="02\potenssi.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="02\primitiiviparametrit.js" />
     <Compile Include="02\sulkeuma.js" />
     <Compile Include="02\sulkeuma_ketjutus.js" />
