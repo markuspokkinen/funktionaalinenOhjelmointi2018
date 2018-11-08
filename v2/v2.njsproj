@@ -29,8 +29,36 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="01\kalevala.txt" />
+    <Content Include="01\README.md" />
+    <Content Include="02\README.md" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="01\" />
+    <Folder Include="02\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01\filter.js" />
+    <Compile Include="01\ketjuta.js" />
+    <Compile Include="01\mapping.js" />
+    <Compile Include="01\movies.js" />
+    <Compile Include="01\nuolifunktio.js" />
+    <Compile Include="01\reduce.js" />
+    <Compile Include="01\teht.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="02\immutable_map.js" />
+    <Compile Include="02\immutable_sort.js" />
+    <Compile Include="02\lazy_evaluation.js" />
+    <Compile Include="02\mappi.js" />
+    <Compile Include="02\more_currying.js" />
+    <Compile Include="02\ominaisuuden_suojaus.js" />
+    <Compile Include="02\range_seq.js" />
+    <Compile Include="02\setti.js" />
+    <Compile Include="02\simple_currying.js" />
+    <Compile Include="02\with_mutations.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
