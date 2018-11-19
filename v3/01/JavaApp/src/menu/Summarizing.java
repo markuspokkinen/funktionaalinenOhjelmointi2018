@@ -16,11 +16,14 @@ public class Summarizing {
         System.out.println("Total calories in menu: " + calculateTotalCalories());
         System.out.println("Average calories in menu: " + calculateAverageCalories());
       
+        
+        System.out.println(dishTags);
     }
 
 
     private static long howManyDishes() {
-        return menu.stream().collect(counting());
+    	return menu.stream().map(dish -> 1).reduce(0,(n1,n2) -> n1+n2);
+        /*return menu.stream().collect(counting());*/
     }
 
     private static Dish findMostCaloricDish() {
