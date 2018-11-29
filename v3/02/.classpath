@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="java1_Runnable"/>
+	<classpathentry kind="src" path="java2_OmaFIF"/>
+	<classpathentry kind="src" path="java3_Omenat"/>
+	<classpathentry kind="src" path="java4_predicate"/>
+	<classpathentry kind="src" path="java5_consumer"/>
+	<classpathentry kind="src" path="java6_function"/>
+	<classpathentry kind="src" path="JavaApplication1/src"/>
+	<classpathentry kind="src" path="Tehtavapohjat"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
